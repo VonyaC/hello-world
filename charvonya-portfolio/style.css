@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Warp';
+}
+body {
+    background-color: #FFFCF4;
+    
+    letter-spacing: 1px;;
+}
+.navBar {
+    height: 56px;
+    background-color: #008395;
+    color: #FFF6DE;
+    padding: 1rem 0;
+}
+
+.navArea {
+    display: flex;
+    margin-left: auto;
+}
+
+.menuItem:not(:first-child) {
+    margin-left: 1rem;
+}
+.menu:link,
+.menu:visited,
+.menu:hover,
+.menu:active {
+    text-decoration: none;
+}
+.menu:link,
+.menu:visited {
+    color: #FFF6DE;
+}
+
+.menu:hover {
+    font-size: 1.2rem
+}
+.menu:active {
+    font-size: 0.875rem
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 3rem ;
+    display: flex;
+}
+
+.cta {
+    color: #2E2E2E;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem
+}
+h4 {
+    font-size: 1.5rem
+}
+h5 {
+    font-size: 1rem;
+}
+.hero {
+    padding: 4rem 0;
+    min-height: 40vh;
+}
+.btn {
+    padding:1rem 2rem;
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.heroContent {
+    width: 40%;
+}
+.heroImage {
+    background-color: #C4C4C4;
+    width: 60%;
+    height: 20rem;
+}
+
+.heroBtnArea {
+    margin-top: 2rem;
+}
+.cta-btn {
+    background-color: #008395;
+    color: #FFF6DE;
+}
+.secondary-cta-btn {
+    background-color: #2E2E2E;
+    color: #FFF6DE;
+}
+.secondary-cta-btn:hover {
+    background-color: #3e3e3e;
+}
+.cta-btn:hover {
+    background-color: #029aae;
+}
+
+.portfolioSection {
+    padding: 3rem 0;
+    background-color: #ebe4d7;
+}
+.portfolioItem {
+    margin-top: 1.5rem;
+    width: 100%;
+    background-color: #C4C4C4;
+    height: 16rem;
+}
+.portfolioContent {
+    width: 100%;
+}
+.footer {
+    background-color: #008395;
+    color: #FFF6DE;
+}
+.footerMenus {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.subFooterArea {
+    padding: .5rem 0;
+    background-color: #004149;
+}
