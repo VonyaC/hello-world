@@ -10,11 +10,19 @@ body {
     
     letter-spacing: 1px;;
 }
+a:link, 
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+.logo {
+    color: #FFFCF4;
+}
 .navBar {
     height: 56px;
     background-color: #008395;
     color: #FFF6DE;
-    padding: 1rem 0;
 }
 
 .navArea {
@@ -22,8 +30,21 @@ body {
     margin-left: auto;
 }
 
-.menuItem:not(:first-child) {
-    margin-left: 1rem;
+.menuItem {
+    padding: .5rem;
+}
+.menuItem:hover {
+    font-size: 1.2rem;
+    padding: .50;
+}
+.menuItem:hover:is(.selected) {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.selected {
+    background-color: #017686;
+    box-shadow: inset 0px 0px 8px 1px #013239a5;
 }
 .menu:link,
 .menu:visited,
@@ -36,17 +57,22 @@ body {
     color: #FFF6DE;
 }
 
-.menu:hover {
+/* .menu:hover  {
     font-size: 1.2rem
-}
+} */
 .menu:active {
     font-size: 0.875rem
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 3rem ;
     display: flex;
+}
+.full-height {
+    height: 100%;
+    align-items: center;
 }
 
 .cta {
@@ -63,6 +89,9 @@ h4 {
 }
 h5 {
     font-size: 1rem;
+}
+p {
+    color: #3E3E3E;
 }
 .hero {
     padding: 4rem 0;
@@ -130,3 +159,27 @@ h5 {
     padding: .5rem 0;
     background-color: #004149;
 }
+
+/********** About Section ******************/
+.about,
+.contact {
+    padding: 2.5rem 0;
+    height: 89svh;
+}
+.aboutSection {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+.aboutContent {
+    max-width: 50%;
+}
+.aboutImage {
+    width: 50%;
+    background-color: #C4C4C4;
+}
+
+
+textarea {
+    resize: none;
+} 

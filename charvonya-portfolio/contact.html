@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charvonya Hepburn Portfolio</title>
+    <title>Contact Me: Charvonya Hepburn</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,37 +16,28 @@
                 <div class="menuItem"><a href="/resume.html" class="menu">Resume</a></div>
                 <div class="menuItem"><a href="/about.html" class="menu">About Me</a></div>
                 <div class="menuItem"><a href="/blog.html" class="menu">Blog</a></div>
-                <div class="menuItem"><a href="/contact.html" class="menu">Contact Me</a></div>
+                <div class="menuItem selected"><a href="/contact.html" class="menu">Contact Me</a></div>
             </div>
         </div>
 
     </nav>
-    <main class="hero">
+    <main class="contact">
         <div class="container">
-            <div class="heroContent">
-                <h4 class="cta">Hello, My name is</h4> <br>
-                <h1 class="cta">Charvonya Hepburn</h1>
-                <h5>Backend developer</h5>
-                <div class="heroBtnArea">
-                    <button class="btn cta-btn">Let's Chat</button>
-                    <button class="btn secondary-cta-btn">Download CV</button>
-                </div>
-            </div>
-            <div class="heroImage">
-                Placeholder
+            
+            <div class="contactForm">
+                <h4>Contact Me</h4>
+                <label for="name">Name</label> <br>
+                <input type="text" id="name" name="name" required minlength="4" maxlength="40"><br>
+                <label for="email">Email Address</label> <br>
+                <input type="email" id="email" name="email" required minlength="4" maxlength="40"><br>
+                <label for="telephone">Telephone Number</label> <br>
+                <input type="tel" id="telephone" name="telephone" required minlength="4" maxlength="40"><br>
+                <label for="message">Message</label> <br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
             </div>
         </div>
-    </main>
-    <section class="portfolioSection">
-        <div class="container">
-            <div class="portfolioContent">
-                <div class="portfolioItem">Portfolio 1</div>
-                <div class="portfolioItem">Portfolio 2</div>
-                <div class="portfolioItem">Portfolio 3</div>
-            </div>
 
-        </div>
-    </section>
+    </main>
     <footer class="footer">
         <div class="container">
             <div class="footerArea">
